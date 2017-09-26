@@ -1,7 +1,7 @@
-const {name} = require('./config/index');
-console.log(name);
+import {name} from './config/index';
+import {User, Product} from './models';
 
-const {User, Product} = require('./models');
+console.log(name);
 
 const user = new User();
 const product = new Product();
